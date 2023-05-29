@@ -1,0 +1,40 @@
+.quiz-page{
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.question-sec {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  margin: 48px 0 24px;
+}
+
+.options-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  gap: 8px;
+}
+
+.next-sec{
+  margin-top: 48px;
+  width: 100%;
+  flex: 1;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}

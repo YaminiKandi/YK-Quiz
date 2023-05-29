@@ -1,0 +1,42 @@
+.primary,
+.secondary {
+  width: 100%;
+  max-width: 300px;
+  height: 48px;
+  font: inherit;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+}
+.primary {
+  background-color: #5b518a;
+  color: white;
+}
+.secondary {
+  background-color: transparent;
+  color: #5b518a;
+}
+
+.primary:hover,
+.primary:active {
+  background: #423778;
+  border-color:#423778;
+}
+
+.secondary:hover,
+.secondary:active{
+  background-color: #E9D5FA;
+  border-color: #E9D5FA;
+  color: black;
+}
+
+.primary:focus,
+.secondary:focus {
+  outline: none;
+}
+

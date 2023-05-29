@@ -1,0 +1,52 @@
+.option {
+  width: 100%;
+  height: 48px;
+  font: inherit;
+  border: none;
+  background: #E9D5FA;
+  color: black;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.option:hover,
+.option:active {
+  background: #5b518a;
+  color: white;
+}
+
+.option:focus {
+  outline: none;
+}
+
+.option:disabled {
+  cursor: default;
+}
+
+.option:disabled:hover,
+.option:disabled:active {
+  background-color: #E9D5FA;
+  color: black;
+}
+
+.correct,
+.correct:hover,
+.correct:active,
+.correct:disabled:hover,
+.correct:disabled:active {
+  background: #00CA4E;
+  color: white;
+}
+
+.wrong,
+.wrong:hover,
+.wrong:active,
+.wrong:disabled:hover,
+.wrong:disabled:active {
+  background-color: #FF605C;
+  color: white;
+}
